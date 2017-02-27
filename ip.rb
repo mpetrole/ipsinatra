@@ -1,13 +1,20 @@
 require 'sinatra'
 require 'thin'
+require 'digest'
 require_relative 'ipcheck'
 
 set :static, true
 set :public_folder, "ipsinatra"
 set :views, "views"
 
+use Rack::Auth::Basic, "Restricted Area" do |username, password|
+  unless Digest::SHA256.hexdigest("#{password}") != '' #put sha256 encrypted password here
+  username == '' and password == password #put username in the quotes
+  end
+end
+
 get '/' do
-  print "Welcome to my server =)"
+  "Welcome to my server =)"
 end
 
 get '/ip' do
