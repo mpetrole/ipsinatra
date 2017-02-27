@@ -6,8 +6,12 @@ set :static, true
 set :public_folder, "ipsinatra"
 set :views, "views"
 
+use Rack::Auth::Basic, "Restricted Area" do |username, password|
+  username == 'soc' and password == 'K1x1CP9iXy68tGjIegeX'
+end
+
 get '/' do
-  print "Welcome to my server =)"
+  <p>"Welcome to my server =)"</p>
 end
 
 get '/ip' do

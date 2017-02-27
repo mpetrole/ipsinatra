@@ -15,9 +15,9 @@ def url_valid?(new_string)
     req.verify_mode = OpenSSL::SSL::VERIFY_NONE #I know this is normally bad, but we just want to connect, we don't care about the security of the connection. Please don't hate me!
     path = url.path if ! url.path.empty? #use a path if available
     res = req.request_head(path || '/')
-    res.code != "404" || res.code != "301" || res.code != "302" # false if returns 404 or redirects, since redirects can't be IP phish
+    res.code != "404" #false if returns 404
   rescue Errno::ENOENT
-    false # false if can't find the server
+    false #false if can't find the server
   rescue OpenSSL::SSL::SSLError
     false #ssl can't connect
   rescue Net::OpenTimeout
@@ -59,10 +59,10 @@ end
       if ip_phish   
           o = url_body("#{url}")
         n = url_body("#{new_url}")
-        if o == n && o != false #if the original can't be found then it's kind of a moot point...
+        if o == n #if the old and new urls match then it is an ip phish
                 ipPhish[url] = ip_phish
         else
-          ipPhish[url] = "Error, mismatch in response bodies." #the original and the new are not the same. Therefore, no IP phish
+          ipPhish[url] = "Mismatch in response bodies - not an IP phish" #the original and the new are not the same. Therefore, no IP phish
         end
       end
           else 
