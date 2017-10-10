@@ -1,0 +1,704 @@
+/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/server.rb:107: warning: constant ::Fixnum is deprecated
+37.235.55.188 - - [25/Sep/2017:22:23:04 +0000] "GET /mal HTTP/1.1" 401 - 0.0005
+37.235.55.188 - soc [25/Sep/2017:22:23:07 +0000] "GET /mal HTTP/1.1" 200 236 0.0147
+37.235.55.188 - soc [25/Sep/2017:22:23:07 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0012
+107.182.230.244 - - [25/Sep/2017:22:23:34 +0000] "GET /mal HTTP/1.1" 401 - 0.0005
+107.182.230.244 - soc [25/Sep/2017:22:23:36 +0000] "GET /mal HTTP/1.1" 200 236 0.0028
+107.182.230.244 - soc [25/Sep/2017:22:23:36 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0012
+107.182.230.244 - soc [25/Sep/2017:22:23:52 +0000] "POST /malcheck HTTP/1.1" 200 299 5.0048
+107.182.230.244 - soc [25/Sep/2017:22:24:58 +0000] "POST /mal HTTP/1.1" 200 236 0.0022
+107.182.230.244 - soc [25/Sep/2017:22:25:04 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0020
+107.182.230.244 - soc [25/Sep/2017:22:25:11 +0000] "POST /mal HTTP/1.1" 200 236 0.0018
+107.182.230.244 - soc [25/Sep/2017:22:25:13 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0032
+107.182.230.241 - - [25/Sep/2017:23:12:42 +0000] "GET /ip HTTP/1.1" 401 - 0.0009
+107.182.230.244 - - [26/Sep/2017:00:52:31 +0000] "GET /ip HTTP/1.1" 401 - 0.0018
+107.182.230.252 - soc [26/Sep/2017:01:01:11 +0000] "GET /mal HTTP/1.1" 200 236 0.0092
+107.182.230.252 - soc [26/Sep/2017:01:01:19 +0000] "POST /malcheck HTTP/1.1" 200 300 5.0047
+46.242.112.113 - - [26/Sep/2017:07:52:40 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0017
+208.167.254.233 - - [26/Sep/2017:10:04:40 +0000] "GET /mal HTTP/1.1" 401 - 0.0019
+96.94.247.225 - - [26/Sep/2017:10:18:50 +0000] "GET /mal HTTP/1.1" 401 - 0.0017
+96.94.247.225 - soc [26/Sep/2017:10:18:54 +0000] "GET /mal HTTP/1.1" 200 236 0.0076
+96.94.247.225 - soc [26/Sep/2017:10:18:54 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0022
+96.94.247.225 - soc [26/Sep/2017:10:18:54 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0010
+208.167.254.246 - - [26/Sep/2017:12:15:57 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+208.167.254.246 - soc [26/Sep/2017:12:15:58 +0000] "GET /mal HTTP/1.1" 200 236 0.0102
+208.167.254.246 - soc [26/Sep/2017:12:15:59 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+208.167.254.246 - soc [26/Sep/2017:12:16:01 +0000] "POST /malcheck HTTP/1.1" 200 385 0.2023
+208.167.254.247 - soc [26/Sep/2017:12:28:30 +0000] "GET /mal HTTP/1.1" 200 236 0.0064
+208.167.254.247 - soc [26/Sep/2017:12:28:40 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0932
+97.67.185.210 - - [26/Sep/2017:12:44:44 +0000] "GET / HTTP/1.1" 401 - 0.0017
+97.67.185.210 - soc [26/Sep/2017:12:44:46 +0000] "GET / HTTP/1.1" 200 374 0.0078
+97.67.185.210 - soc [26/Sep/2017:12:44:46 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0021
+97.67.185.210 - soc [26/Sep/2017:12:45:07 +0000] "POST /mal HTTP/1.1" 200 236 0.0037
+97.67.185.210 - soc [26/Sep/2017:12:45:15 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0064
+96.94.247.225 - soc [26/Sep/2017:13:05:23 +0000] "POST /malcheck HTTP/1.1" 200 298 0.0703
+209.222.5.230 - soc [26/Sep/2017:13:47:06 +0000] "GET /mal HTTP/1.1" 200 236 0.0101
+209.222.5.230 - soc [26/Sep/2017:13:47:08 +0000] "POST /malcheck HTTP/1.1" 200 299 0.0855
+107.182.230.241 - - [26/Sep/2017:14:09:25 +0000] "GET /ip HTTP/1.1" 401 - 0.0016
+107.182.230.241 - - [26/Sep/2017:14:09:25 +0000] "GET /ip HTTP/1.1" 401 - 0.0004
+97.67.185.210 - soc [26/Sep/2017:14:41:39 +0000] "GET / HTTP/1.1" 200 374 0.0080
+97.67.185.210 - soc [26/Sep/2017:14:41:41 +0000] "POST /mal HTTP/1.1" 200 236 0.0037
+97.67.185.210 - soc [26/Sep/2017:14:41:53 +0000] "POST /malcheck HTTP/1.1" 200 1114 5.0229
+97.67.185.210 - soc [26/Sep/2017:14:42:08 +0000] "POST /mal HTTP/1.1" 200 236 0.0027
+97.67.185.210 - soc [26/Sep/2017:14:42:11 +0000] "POST /malcheck HTTP/1.1" 200 407 0.2045
+97.67.185.210 - soc [26/Sep/2017:14:42:19 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+97.67.185.210 - soc [26/Sep/2017:14:42:21 +0000] "POST /malcheck HTTP/1.1" 200 294 0.1118
+208.167.254.235 - soc [26/Sep/2017:14:51:07 +0000] "GET /mal HTTP/1.1" 200 236 0.0078
+208.167.254.235 - soc [26/Sep/2017:14:51:16 +0000] "POST /malcheck HTTP/1.1" 200 1144 5.0137
+208.167.254.235 - soc [26/Sep/2017:14:52:00 +0000] "POST /mal HTTP/1.1" 200 236 0.0020
+208.167.254.235 - soc [26/Sep/2017:14:52:06 +0000] "POST /malcheck HTTP/1.1" 200 422 5.0054
+176.193.137.1 - - [26/Sep/2017:15:13:13 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+107.182.230.251 - - [26/Sep/2017:15:20:29 +0000] "GET /ip HTTP/1.1" 401 - 0.0005
+104.236.240.165 - - [26/Sep/2017:15:22:00 +0000] "GET /ip HTTP/1.1" 401 - 0.0003
+107.182.230.244 - - [26/Sep/2017:16:33:19 +0000] "GET /ip HTTP/1.1" 401 - 0.0035
+107.182.230.241 - - [26/Sep/2017:17:01:49 +0000] "GET /ip HTTP/1.1" 401 - 0.0007
+107.182.230.241 - soc [26/Sep/2017:17:01:52 +0000] "GET /ip HTTP/1.1" 200 237 0.0110
+107.182.230.241 - soc [26/Sep/2017:17:01:52 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0010
+2017-09-26 17:02:19 - NoMethodError - undefined method `<=' for nil:NilClass:
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1525:in `keep_alive?'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1514:in `end_transport'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1475:in `transport_request'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1416:in `request'
+	/home/mpetrole/ipsinatra/ipcheck.rb:34:in `block in url_body'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:877:in `start'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:608:in `start'
+	/home/mpetrole/ipsinatra/ipcheck.rb:31:in `url_body'
+	/home/mpetrole/ipsinatra/ipcheck.rb:61:in `block in check'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `each'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `check'
+	/home/mpetrole/ipsinatra/ip.rb:38:in `block in <top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `block in compile!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (3 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:994:in `route_eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (2 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1015:in `block in process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:973:in `block in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `each'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1085:in `block in dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1082:in `dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `block in call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:895:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/auth/basic.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/logger.rb:15:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/commonlogger.rb:33:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:219:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:212:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/head.rb:13:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:22:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/show_exceptions.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:182:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:2013:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `block in call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1787:in `synchronize'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:53:in `process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:39:in `receive_data'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run_machine'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/backends/base.rb:73:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/server.rb:162:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/controllers/controller.rb:87:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:200:in `run_command'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:156:in `run!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/bin/thin:6:in `<top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `load'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `<main>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+107.182.230.241 - soc [26/Sep/2017:17:02:20 +0000] "GET /__sinatra__/500.png HTTP/1.1" 200 24378 0.0024
+2017-09-26 17:02:41 - NoMethodError - undefined method `<=' for nil:NilClass:
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1525:in `keep_alive?'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1514:in `end_transport'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1475:in `transport_request'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1416:in `request'
+	/home/mpetrole/ipsinatra/ipcheck.rb:34:in `block in url_body'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:877:in `start'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:608:in `start'
+	/home/mpetrole/ipsinatra/ipcheck.rb:31:in `url_body'
+	/home/mpetrole/ipsinatra/ipcheck.rb:61:in `block in check'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `each'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `check'
+	/home/mpetrole/ipsinatra/ip.rb:38:in `block in <top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `block in compile!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (3 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:994:in `route_eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (2 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1015:in `block in process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:973:in `block in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `each'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1085:in `block in dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1082:in `dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `block in call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:895:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/auth/basic.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/logger.rb:15:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/commonlogger.rb:33:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:219:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:212:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/head.rb:13:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:22:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/show_exceptions.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:182:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:2013:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `block in call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1787:in `synchronize'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:53:in `process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:39:in `receive_data'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run_machine'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/backends/base.rb:73:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/server.rb:162:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/controllers/controller.rb:87:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:200:in `run_command'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:156:in `run!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/bin/thin:6:in `<top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `load'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `<main>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+2017-09-26 17:03:04 - NoMethodError - undefined method `<=' for nil:NilClass:
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1525:in `keep_alive?'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1514:in `end_transport'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1475:in `transport_request'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1416:in `request'
+	/home/mpetrole/ipsinatra/ipcheck.rb:34:in `block in url_body'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:877:in `start'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:608:in `start'
+	/home/mpetrole/ipsinatra/ipcheck.rb:31:in `url_body'
+	/home/mpetrole/ipsinatra/ipcheck.rb:61:in `block in check'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `each'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `check'
+	/home/mpetrole/ipsinatra/ip.rb:38:in `block in <top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `block in compile!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (3 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:994:in `route_eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (2 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1015:in `block in process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:973:in `block in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `each'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1085:in `block in dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1082:in `dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `block in call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:895:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/auth/basic.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/logger.rb:15:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/commonlogger.rb:33:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:219:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:212:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/head.rb:13:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:22:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/show_exceptions.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:182:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:2013:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `block in call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1787:in `synchronize'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:53:in `process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:39:in `receive_data'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run_machine'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/backends/base.rb:73:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/server.rb:162:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/controllers/controller.rb:87:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:200:in `run_command'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:156:in `run!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/bin/thin:6:in `<top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `load'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `<main>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+2017-09-26 17:03:16 - NoMethodError - undefined method `<=' for nil:NilClass:
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1525:in `keep_alive?'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1514:in `end_transport'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1475:in `transport_request'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:1416:in `request'
+	/home/mpetrole/ipsinatra/ipcheck.rb:34:in `block in url_body'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:877:in `start'
+	/home/mpetrole/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/net/http.rb:608:in `start'
+	/home/mpetrole/ipsinatra/ipcheck.rb:31:in `url_body'
+	/home/mpetrole/ipsinatra/ipcheck.rb:61:in `block in check'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `each'
+	/home/mpetrole/ipsinatra/ipcheck.rb:42:in `check'
+	/home/mpetrole/ipsinatra/ip.rb:38:in `block in <top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1611:in `block in compile!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (3 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:994:in `route_eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:975:in `block (2 levels) in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1015:in `block in process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1013:in `process_route'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:973:in `block in route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `each'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:972:in `route!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1085:in `block in dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1082:in `dispatch!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `block in call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `block in invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1067:in `invoke'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:907:in `call!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:895:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/auth/basic.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/logger.rb:15:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/commonlogger.rb:33:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:219:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:212:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/head.rb:13:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:22:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/show_exceptions.rb:25:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:182:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:2013:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `block in call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1787:in `synchronize'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/sinatra-1.4.8/lib/sinatra/base.rb:1487:in `call'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `catch'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `pre_process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:53:in `process'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/connection.rb:39:in `receive_data'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run_machine'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/eventmachine-1.2.3/lib/eventmachine.rb:194:in `run'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/backends/base.rb:73:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/server.rb:162:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/controllers/controller.rb:87:in `start'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:200:in `run_command'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/lib/thin/runner.rb:156:in `run!'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/gems/thin-1.7.0/bin/thin:6:in `<top (required)>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `load'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/thin:22:in `<main>'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+	/home/mpetrole/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+107.182.230.241 - soc [26/Sep/2017:17:03:26 +0000] "POST /ipinput HTTP/1.1" 200 340 3.7192
+107.182.230.241 - soc [26/Sep/2017:17:03:28 +0000] "POST /ip HTTP/1.1" 200 237 0.0029
+107.182.231.6 - - [26/Sep/2017:22:32:10 +0000] "GET /ip HTTP/1.1" 401 - 0.0015
+208.167.254.242 - - [27/Sep/2017:09:57:01 +0000] "GET /mal HTTP/1.1" 401 - 0.0021
+96.94.247.225 - - [27/Sep/2017:11:04:42 +0000] "GET /mal HTTP/1.1" 401 - 0.0018
+96.94.247.225 - soc [27/Sep/2017:11:04:47 +0000] "GET /mal HTTP/1.1" 200 236 0.0072
+96.94.247.225 - soc [27/Sep/2017:11:04:47 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0018
+158.85.81.126 - - [27/Sep/2017:17:51:45 +0000] "GET / HTTP/1.0" 401 - 0.0015
+107.182.231.7 - - [27/Sep/2017:18:17:11 +0000] "GET /mal HTTP/1.1" 401 - 0.0020
+107.182.231.7 - soc [27/Sep/2017:18:17:12 +0000] "GET /mal HTTP/1.1" 200 236 0.0060
+107.182.231.7 - soc [27/Sep/2017:18:17:13 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0018
+107.182.231.7 - soc [27/Sep/2017:18:17:18 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0912
+107.182.231.7 - soc [27/Sep/2017:18:17:25 +0000] "POST /mal HTTP/1.1" 200 236 0.0035
+107.182.231.7 - soc [27/Sep/2017:18:17:27 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0912
+107.182.231.7 - soc [27/Sep/2017:18:17:34 +0000] "POST /mal HTTP/1.1" 200 236 0.0019
+107.182.231.7 - soc [27/Sep/2017:18:17:37 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0901
+107.182.231.7 - soc [27/Sep/2017:18:17:40 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+107.182.231.7 - soc [27/Sep/2017:18:17:45 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0897
+107.182.231.7 - soc [27/Sep/2017:18:17:50 +0000] "POST /mal HTTP/1.1" 200 236 0.0023
+107.182.231.7 - soc [27/Sep/2017:18:17:52 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0895
+107.182.230.249 - - [27/Sep/2017:20:04:46 +0000] "GET /ip HTTP/1.1" 401 - 0.0016
+107.182.230.251 - soc [27/Sep/2017:20:12:16 +0000] "GET /mal HTTP/1.1" 200 236 0.0140
+107.182.230.251 - soc [27/Sep/2017:20:12:25 +0000] "POST /malcheck HTTP/1.1" 200 529 5.0088
+107.182.230.251 - soc [27/Sep/2017:20:12:37 +0000] "POST /mal HTTP/1.1" 200 236 0.0038
+107.182.230.251 - soc [27/Sep/2017:20:12:44 +0000] "POST /malcheck HTTP/1.1" 200 1149 5.0139
+108.61.226.26 - - [27/Sep/2017:20:21:55 +0000] "GET /mal HTTP/1.1" 401 - 0.0005
+108.61.226.26 - - [27/Sep/2017:20:22:05 +0000] "GET /mal HTTP/1.1" 401 - 0.0006
+108.61.226.26 - soc [27/Sep/2017:20:22:16 +0000] "GET /mal HTTP/1.1" 200 236 0.0033
+108.61.226.26 - soc [27/Sep/2017:20:22:17 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0014
+108.61.226.26 - soc [27/Sep/2017:20:24:02 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0037
+108.61.226.26 - soc [27/Sep/2017:20:24:06 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+log writing failed. Input/output error @ io_write - <STDOUT>
+107.182.230.245 - soc [28/Sep/2017:01:03:01 +0000] "GET /mal HTTP/1.1" 200 236 0.0087
+107.182.230.245 - soc [28/Sep/2017:01:03:20 +0000] "POST /malcheck HTTP/1.1" 200 1116 5.0163
+71.204.251.247 - soc [28/Sep/2017:09:58:02 +0000] "POST /mal HTTP/1.1" 200 236 0.0113
+71.204.251.247 - soc [28/Sep/2017:09:58:05 +0000] "POST /malcheck HTTP/1.1" 200 307 0.0068
+71.204.251.247 - soc [28/Sep/2017:09:58:11 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+208.167.254.243 - - [28/Sep/2017:10:01:19 +0000] "GET /mal HTTP/1.1" 401 - 0.0004
+96.94.247.225 - - [28/Sep/2017:10:03:25 +0000] "GET /mal HTTP/1.1" 401 - 0.0004
+96.94.247.225 - soc [28/Sep/2017:10:03:32 +0000] "GET /mal HTTP/1.1" 200 236 0.0038
+96.94.247.225 - soc [28/Sep/2017:10:03:32 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0023
+96.94.247.225 - soc [28/Sep/2017:11:41:26 +0000] "POST /malcheck HTTP/1.1" 200 291 0.2106
+96.94.247.225 - soc [28/Sep/2017:11:41:36 +0000] "POST /mal HTTP/1.1" 200 236 0.0044
+96.94.247.225 - soc [28/Sep/2017:11:41:37 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1500
+206.74.44.65 - - [28/Sep/2017:18:17:38 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+206.74.44.65 - - [28/Sep/2017:18:18:11 +0000] "GET /favicon.ico HTTP/1.1" 401 - 0.0003
+206.74.44.65 - - [28/Sep/2017:18:18:11 +0000] "GET /favicon.ico HTTP/1.1" 401 - 0.0004
+206.74.44.65 - - [28/Sep/2017:18:22:25 +0000] "GET /mal HTTP/1.1" 401 - 0.0004
+206.74.44.65 - soc [28/Sep/2017:18:23:22 +0000] "GET /mal HTTP/1.1" 200 236 0.0091
+206.74.44.65 - soc [28/Sep/2017:18:23:55 +0000] "POST /malcheck HTTP/1.1" 200 559 5.0096
+206.74.44.65 - soc [28/Sep/2017:18:24:23 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+206.74.44.65 - soc [28/Sep/2017:18:24:53 +0000] "POST /malcheck HTTP/1.1" 200 361 5.0051
+206.74.44.65 - soc [28/Sep/2017:18:25:21 +0000] "POST /mal HTTP/1.1" 200 236 0.0035
+206.74.44.65 - soc [28/Sep/2017:18:25:29 +0000] "POST /malcheck HTTP/1.1" 200 497 5.0064
+206.74.44.65 - soc [28/Sep/2017:18:25:48 +0000] "POST /mal HTTP/1.1" 200 236 0.0037
+206.74.44.65 - soc [28/Sep/2017:18:25:55 +0000] "POST /malcheck HTTP/1.1" 200 559 5.0074
+206.74.44.65 - soc [28/Sep/2017:18:26:09 +0000] "POST /mal HTTP/1.1" 200 236 0.0033
+206.74.44.65 - soc [28/Sep/2017:18:26:16 +0000] "POST /malcheck HTTP/1.1" 200 417 5.0123
+206.74.44.65 - soc [28/Sep/2017:18:26:42 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+206.74.44.65 - soc [28/Sep/2017:18:26:47 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1512
+206.74.44.65 - soc [28/Sep/2017:18:26:52 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+206.74.44.65 - soc [28/Sep/2017:18:26:59 +0000] "POST /malcheck HTTP/1.1" 200 299 5.0051
+206.74.44.65 - soc [28/Sep/2017:18:27:12 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+206.74.44.65 - soc [28/Sep/2017:18:27:18 +0000] "POST /malcheck HTTP/1.1" 200 298 5.0049
+206.74.44.65 - soc [28/Sep/2017:18:27:46 +0000] "POST /mal HTTP/1.1" 200 236 0.0029
+206.74.44.65 - soc [28/Sep/2017:18:27:55 +0000] "POST /malcheck HTTP/1.1" 200 591 5.0070
+206.74.44.65 - soc [28/Sep/2017:18:27:59 +0000] "POST /mal HTTP/1.1" 200 236 0.0028
+206.74.44.65 - soc [28/Sep/2017:18:28:13 +0000] "POST /malcheck HTTP/1.1" 200 628 5.0069
+108.61.226.25 - - [28/Sep/2017:19:23:44 +0000] "GET /mal HTTP/1.1" 401 - 0.0015
+206.74.44.65 - soc [28/Sep/2017:19:23:51 +0000] "GET /mal HTTP/1.1" 200 236 0.0072
+206.74.44.65 - soc [28/Sep/2017:19:23:59 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0038
+206.74.44.65 - soc [28/Sep/2017:19:24:03 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+206.74.44.65 - soc [28/Sep/2017:19:24:07 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0033
+206.74.44.65 - - [28/Sep/2017:19:25:32 +0000] "GET /mal HTTP/1.1" 401 - 0.0004
+206.74.44.65 - - [28/Sep/2017:20:36:15 +0000] "GET /mal HTTP/1.1" 401 - 0.0020
+206.74.44.65 - soc [28/Sep/2017:20:36:19 +0000] "GET /mal HTTP/1.1" 200 236 0.0076
+206.74.44.65 - soc [28/Sep/2017:20:36:26 +0000] "POST /malcheck HTTP/1.1" 200 293 0.0913
+206.74.44.65 - soc [29/Sep/2017:00:16:24 +0000] "GET /mal HTTP/1.1" 200 236 0.0132
+206.74.44.65 - soc [29/Sep/2017:00:16:31 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0034
+173.239.236.77 - - [29/Sep/2017:00:18:17 +0000] "GET /mal HTTP/1.1" 401 - 0.0005
+173.239.236.77 - soc [29/Sep/2017:00:18:24 +0000] "GET /mal HTTP/1.1" 200 236 0.0031
+173.239.236.77 - soc [29/Sep/2017:00:18:24 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+173.239.236.77 - soc [29/Sep/2017:00:18:36 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0033
+173.239.236.77 - soc [29/Sep/2017:00:18:38 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+206.74.44.65 - soc [29/Sep/2017:00:47:40 +0000] "GET /mal HTTP/1.1" 200 236 0.0069
+206.74.44.65 - soc [29/Sep/2017:00:47:48 +0000] "POST /malcheck HTTP/1.1" 200 295 5.0046
+77.37.175.16 - - [29/Sep/2017:02:39:46 +0000] "GET /mal HTTP/1.1" 401 - 0.0039
+log writing failed. Input/output error @ io_write - <STDOUT>
+97.67.185.210 - - [29/Sep/2017:11:24:31 +0000] "GET / HTTP/1.1" 401 - 0.0014
+97.67.185.210 - soc [29/Sep/2017:11:24:33 +0000] "GET / HTTP/1.1" 200 374 0.0101
+97.67.185.210 - soc [29/Sep/2017:11:24:33 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0018
+97.67.185.210 - soc [29/Sep/2017:11:24:39 +0000] "POST /mal HTTP/1.1" 200 236 0.0073
+97.67.185.210 - soc [29/Sep/2017:11:24:41 +0000] "POST /malcheck HTTP/1.1" 200 294 0.0791
+97.67.185.210 - soc [29/Sep/2017:11:24:44 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+97.67.185.210 - soc [29/Sep/2017:11:24:45 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0039
+97.67.185.210 - soc [29/Sep/2017:11:24:47 +0000] "POST /mal HTTP/1.1" 200 236 0.0041
+97.67.185.210 - soc [29/Sep/2017:11:24:49 +0000] "POST /malcheck HTTP/1.1" 200 294 0.0845
+2601:743:280:27d7:d5f3:2273:b2da:8710 - - [29/Sep/2017:18:17:12 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+107.182.230.247 - - [29/Sep/2017:21:29:21 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+107.182.230.247 - soc [29/Sep/2017:21:29:30 +0000] "GET /mal HTTP/1.1" 200 236 0.0094
+107.182.230.247 - soc [29/Sep/2017:21:29:30 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0021
+107.182.230.247 - soc [29/Sep/2017:21:29:56 +0000] "POST /malcheck HTTP/1.1" 200 415 5.0050
+173.239.236.30 - - [29/Sep/2017:21:46:46 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+173.239.236.30 - soc [29/Sep/2017:21:47:00 +0000] "GET /mal HTTP/1.1" 200 236 0.0068
+173.239.236.30 - soc [29/Sep/2017:21:47:01 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+173.239.236.30 - soc [29/Sep/2017:21:47:12 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0035
+173.239.236.30 - soc [29/Sep/2017:22:28:36 +0000] "GET /mal HTTP/1.1" 200 236 0.0067
+173.239.236.30 - soc [29/Sep/2017:22:28:39 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0037
+2601:743:280:27d7:d5f3:2273:b2da:8710 - - [30/Sep/2017:04:04:20 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+97.67.185.210 - - [30/Sep/2017:11:19:24 +0000] "GET / HTTP/1.1" 401 - 0.0008
+97.67.185.210 - soc [30/Sep/2017:11:19:26 +0000] "GET / HTTP/1.1" 200 374 0.0097
+97.67.185.210 - soc [30/Sep/2017:11:19:26 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+97.67.185.210 - soc [30/Sep/2017:11:19:27 +0000] "POST /mal HTTP/1.1" 200 236 0.0028
+97.67.185.210 - soc [30/Sep/2017:11:19:39 +0000] "POST /malcheck HTTP/1.1" 200 298 0.1937
+97.67.185.210 - soc [30/Sep/2017:14:06:52 +0000] "GET / HTTP/1.1" 200 374 0.0090
+97.67.185.210 - soc [30/Sep/2017:14:06:53 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+97.67.185.210 - soc [30/Sep/2017:14:06:54 +0000] "POST /mal HTTP/1.1" 200 236 0.0035
+97.67.185.210 - soc [30/Sep/2017:14:06:55 +0000] "POST /malcheck HTTP/1.1" 200 291 0.1765
+37.147.250.106 - - [30/Sep/2017:14:51:08 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0024
+2601:743:280:27d7:d5f3:2273:b2da:8710 - - [30/Sep/2017:16:20:18 +0000] "GET /mal HTTP/1.1" 401 - 0.0012
+169.54.233.121 - - [01/Oct/2017:02:37:00 +0000] "GET / HTTP/1.0" 401 - 0.0024
+97.67.185.210 - - [01/Oct/2017:10:48:57 +0000] "GET /mal HTTP/1.1" 401 - 0.0015
+107.182.230.239 - - [01/Oct/2017:14:07:01 +0000] "GET /ip HTTP/1.1" 401 - 0.0024
+107.182.230.244 - - [01/Oct/2017:22:08:29 +0000] "GET /ip HTTP/1.1" 401 - 0.0017
+208.167.254.229 - - [01/Oct/2017:23:46:59 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+209.126.136.5 - - [02/Oct/2017:05:22:16 +0000] "GET / HTTP/1.1" 401 - 0.0014
+80.82.77.33 - - [02/Oct/2017:08:58:27 +0000] "GET / HTTP/1.1" 401 - 0.0015
+97.67.185.210 - - [02/Oct/2017:09:57:56 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+107.182.230.248 - - [02/Oct/2017:14:03:19 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+97.67.185.210 - - [02/Oct/2017:19:15:19 +0000] "GET /ip HTTP/1.1" 401 - 0.0016
+97.67.185.210 - soc [02/Oct/2017:19:15:33 +0000] "GET /ip HTTP/1.1" 200 237 0.0095
+97.67.185.210 - soc [02/Oct/2017:19:15:33 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0014
+97.67.185.210 - soc [02/Oct/2017:19:15:33 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0010
+97.67.185.210 - soc [02/Oct/2017:19:15:41 +0000] "POST /ipinput HTTP/1.1" 200 452 5.3291
+97.67.185.210 - soc [02/Oct/2017:22:37:54 +0000] "POST /ip HTTP/1.1" 200 237 0.0067
+97.67.185.210 - soc [02/Oct/2017:22:38:02 +0000] "POST /ipinput HTTP/1.1" 200 478 6.3534
+97.67.185.210 - soc [02/Oct/2017:22:46:21 +0000] "POST /ip HTTP/1.1" 200 237 0.0063
+97.67.185.210 - soc [02/Oct/2017:22:46:24 +0000] "POST /ipinput HTTP/1.1" 200 340 2.1419
+107.182.230.243 - - [02/Oct/2017:23:00:33 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+107.182.230.243 - soc [02/Oct/2017:23:00:35 +0000] "GET /ip HTTP/1.1" 200 237 0.0055
+107.182.230.243 - soc [02/Oct/2017:23:00:35 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0014
+107.182.230.243 - soc [02/Oct/2017:23:00:39 +0000] "POST /ipinput HTTP/1.1" 200 384 1.2541
+107.182.230.243 - soc [02/Oct/2017:23:00:44 +0000] "POST /ip HTTP/1.1" 200 237 0.0029
+107.182.230.243 - soc [02/Oct/2017:23:00:52 +0000] "POST /ipinput HTTP/1.1" 200 393 1.2216
+97.67.185.210 - soc [02/Oct/2017:23:26:49 +0000] "POST /ip HTTP/1.1" 200 237 0.0070
+97.67.185.210 - soc [02/Oct/2017:23:26:52 +0000] "POST /ipinput HTTP/1.1" 200 393 0.6263
+97.67.185.210 - soc [02/Oct/2017:23:26:54 +0000] "POST /ip HTTP/1.1" 200 237 0.0033
+97.67.185.210 - soc [02/Oct/2017:23:26:58 +0000] "POST /ipinput HTTP/1.1" 200 366 0.4503
+97.67.185.210 - soc [02/Oct/2017:23:56:55 +0000] "POST /ip HTTP/1.1" 200 237 0.0060
+97.67.185.210 - soc [02/Oct/2017:23:57:04 +0000] "POST /ipinput HTTP/1.1" 200 554 8.6430
+159.203.105.99 - - [03/Oct/2017:01:17:23 +0000] "GET /ip HTTP/1.1" 401 - 0.0017
+95.220.213.206 - - [03/Oct/2017:03:09:33 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0013
+208.167.254.239 - - [03/Oct/2017:10:21:49 +0000] "GET /mal HTTP/1.1" 401 - 0.0011
+log writing failed. Input/output error @ io_write - <STDOUT>
+115.192.214.245 - - [03/Oct/2017:11:25:18 +0000] "GET / HTTP/1.0" 401 - 0.0011
+125.76.60.167 - - [03/Oct/2017:11:25:20 +0000] "GET / HTTP/1.1" 401 - 0.0006
+125.76.61.69 - - [03/Oct/2017:11:25:21 +0000] "GET /favicon.ico HTTP/1.1" 401 - 0.0003
+log writing failed. Input/output error @ io_write - <STDOUT>
+123.245.94.217 - - [03/Oct/2017:11:25:22 +0000] "GET /stats HTTP/1.1" 401 - 0.0003
+log writing failed. Input/output error @ io_write - <STDOUT>
+172.98.67.145 - - [03/Oct/2017:13:06:53 +0000] "GET / HTTP/1.1" 401 - 0.0009
+172.98.67.145 - soc [03/Oct/2017:13:06:55 +0000] "GET / HTTP/1.1" 200 374 0.0089
+172.98.67.145 - soc [03/Oct/2017:13:06:55 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+172.98.67.145 - soc [03/Oct/2017:13:07:01 +0000] "POST /mal HTTP/1.1" 200 236 0.0036
+172.98.67.145 - soc [03/Oct/2017:13:07:05 +0000] "POST /malcheck HTTP/1.1" 200 296 1.3974
+172.98.67.145 - soc [03/Oct/2017:13:07:11 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+172.98.67.145 - soc [03/Oct/2017:13:07:18 +0000] "POST /malcheck HTTP/1.1" 200 395 5.0057
+107.182.230.252 - - [03/Oct/2017:14:07:36 +0000] "GET /ip HTTP/1.1" 401 - 0.0013
+97.67.185.210 - - [03/Oct/2017:19:02:56 +0000] "GET /ip HTTP/1.1" 401 - 0.0016
+97.67.185.210 - soc [03/Oct/2017:19:02:58 +0000] "GET /ip HTTP/1.1" 200 237 0.0076
+97.67.185.210 - soc [03/Oct/2017:19:02:58 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+97.67.185.210 - soc [03/Oct/2017:19:02:58 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0011
+97.67.185.210 - soc [03/Oct/2017:19:03:00 +0000] "POST /ipinput HTTP/1.1" 200 366 0.4913
+97.67.185.210 - soc [03/Oct/2017:19:11:28 +0000] "POST /ip HTTP/1.1" 200 237 0.0066
+97.67.185.210 - soc [03/Oct/2017:19:11:30 +0000] "POST /ipinput HTTP/1.1" 200 370 1.3124
+107.182.230.249 - - [03/Oct/2017:19:34:27 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+107.182.230.249 - soc [03/Oct/2017:19:34:36 +0000] "GET /mal HTTP/1.1" 200 236 0.0060
+107.182.230.249 - soc [03/Oct/2017:19:34:36 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0020
+107.182.230.249 - soc [03/Oct/2017:19:34:41 +0000] "POST /malcheck HTTP/1.1" 200 297 0.1289
+107.182.230.249 - soc [03/Oct/2017:19:35:14 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+107.182.230.249 - soc [03/Oct/2017:19:35:16 +0000] "POST /malcheck HTTP/1.1" 200 292 0.1153
+97.67.185.210 - soc [03/Oct/2017:20:17:44 +0000] "GET /mal HTTP/1.1" 200 236 0.0070
+97.67.185.210 - soc [03/Oct/2017:20:17:55 +0000] "POST /malcheck HTTP/1.1" 200 297 5.0042
+97.67.185.210 - soc [03/Oct/2017:20:18:09 +0000] "POST /mal HTTP/1.1" 200 236 0.0018
+97.67.185.210 - soc [03/Oct/2017:20:18:18 +0000] "POST /malcheck HTTP/1.1" 200 297 5.0043
+97.67.185.210 - - [03/Oct/2017:20:31:05 +0000] "GET /favicon.ico HTTP/1.1" 401 - 0.0017
+96.94.247.225 - soc [03/Oct/2017:21:37:48 +0000] "GET /mal HTTP/1.1" 200 236 0.0066
+96.94.247.225 - soc [03/Oct/2017:21:37:49 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+96.94.247.225 - soc [03/Oct/2017:21:37:55 +0000] "POST /malcheck HTTP/1.1" 200 297 2.4134
+192.241.141.188 - - [03/Oct/2017:22:14:46 +0000] "GET /mal HTTP/1.1" 401 - 0.0018
+107.182.230.253 - - [03/Oct/2017:22:23:18 +0000] "GET /ip HTTP/1.1" 401 - 0.0003
+5.166.131.188 - - [03/Oct/2017:23:41:26 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0014
+96.94.247.225 - - [04/Oct/2017:10:17:49 +0000] "GET /mal HTTP/1.1" 401 - 0.0063
+188.255.16.110 - - [04/Oct/2017:12:33:04 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0012
+96.94.247.225 - - [04/Oct/2017:13:58:18 +0000] "GET /ip HTTP/1.1" 401 - 0.0016
+95.221.53.54 - - [04/Oct/2017:16:32:56 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0016
+104.131.196.23 - - [04/Oct/2017:17:51:34 +0000] "GET /mal HTTP/1.1" 401 - 0.0022
+107.182.230.246 - - [04/Oct/2017:18:42:35 +0000] "GET /ip HTTP/1.1" 401 - 0.0016
+96.94.247.225 - - [04/Oct/2017:20:20:16 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+96.94.247.225 - soc [04/Oct/2017:20:20:18 +0000] "GET /mal HTTP/1.1" 200 236 0.0070
+96.94.247.225 - soc [04/Oct/2017:20:20:18 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+96.94.247.225 - soc [04/Oct/2017:20:20:20 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0036
+96.94.247.225 - soc [04/Oct/2017:20:20:25 +0000] "POST /mal HTTP/1.1" 200 236 0.0034
+96.94.247.225 - soc [04/Oct/2017:20:20:28 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0037
+96.94.247.225 - soc [04/Oct/2017:20:20:38 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+96.94.247.225 - soc [04/Oct/2017:20:20:40 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1158
+96.94.247.225 - soc [04/Oct/2017:20:33:38 +0000] "POST /mal HTTP/1.1" 200 236 0.0051
+96.94.247.225 - soc [04/Oct/2017:20:33:40 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1249
+96.94.247.225 - soc [04/Oct/2017:20:52:32 +0000] "GET /mal HTTP/1.1" 200 236 0.0114
+96.94.247.225 - soc [04/Oct/2017:20:52:40 +0000] "POST /malcheck HTTP/1.1" 200 298 5.0061
+96.94.247.225 - soc [04/Oct/2017:21:13:06 +0000] "POST /mal HTTP/1.1" 200 236 0.0072
+96.94.247.225 - soc [04/Oct/2017:21:13:09 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0040
+96.94.247.225 - soc [04/Oct/2017:21:13:12 +0000] "POST /mal HTTP/1.1" 200 236 0.0050
+96.94.247.225 - soc [05/Oct/2017:00:30:10 +0000] "GET /mal HTTP/1.1" 200 236 0.0196
+96.94.247.225 - soc [05/Oct/2017:00:30:10 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+96.94.247.225 - soc [05/Oct/2017:00:30:17 +0000] "POST /malcheck HTTP/1.1" 200 299 5.0051
+198.199.76.88 - - [05/Oct/2017:09:57:22 +0000] "GET /mal HTTP/1.1" 401 - 0.0015
+96.94.247.225 - - [05/Oct/2017:13:09:48 +0000] "GET /mal HTTP/1.1" 401 - 0.0008
+96.94.247.225 - soc [05/Oct/2017:13:09:51 +0000] "GET /mal HTTP/1.1" 200 236 0.0103
+96.94.247.225 - soc [05/Oct/2017:13:09:52 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+96.94.247.225 - soc [05/Oct/2017:13:09:59 +0000] "POST /malcheck HTTP/1.1" 200 1233 5.0193
+96.94.247.225 - soc [05/Oct/2017:13:25:30 +0000] "POST /mal HTTP/1.1" 200 236 0.0064
+52.87.255.118 - - [05/Oct/2017:13:25:35 +0000] "GET /mal HTTP/1.1" 401 - 0.0004
+52.87.255.118 - - [05/Oct/2017:13:25:35 +0000] "GET /mal HTTP/1.1" 401 - 0.0004
+107.182.230.251 - - [05/Oct/2017:18:36:22 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+159.203.114.97 - - [05/Oct/2017:19:46:23 +0000] "GET /mal HTTP/1.1" 401 - 0.0028
+196.52.43.55 - - [05/Oct/2017:20:04:57 +0000] "GET / HTTP/1.0" 401 - 0.0008
+96.94.247.225 - - [05/Oct/2017:21:22:31 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+96.94.247.225 - soc [05/Oct/2017:21:22:33 +0000] "GET /ip HTTP/1.1" 200 237 0.0084
+96.94.247.225 - soc [05/Oct/2017:21:22:33 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0017
+96.94.247.225 - soc [05/Oct/2017:21:22:33 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0011
+96.94.247.225 - soc [05/Oct/2017:21:22:35 +0000] "POST /ipinput HTTP/1.1" 200 373 0.9435
+173.239.236.79 - - [06/Oct/2017:00:00:46 +0000] "GET /mal HTTP/1.1" 401 - 0.0015
+173.239.236.79 - soc [06/Oct/2017:00:00:52 +0000] "GET /mal HTTP/1.1" 200 236 0.0069
+173.239.236.79 - soc [06/Oct/2017:00:00:52 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+173.239.236.79 - soc [06/Oct/2017:00:01:03 +0000] "POST /malcheck HTTP/1.1" 200 291 0.1107
+173.239.236.16 - soc [06/Oct/2017:00:20:36 +0000] "GET /mal HTTP/1.1" 200 236 0.0070
+173.239.236.16 - soc [06/Oct/2017:00:20:59 +0000] "POST /malcheck HTTP/1.1" 200 386 0.1046
+176.193.115.102 - - [06/Oct/2017:07:40:38 +0000] "GET /mal HTTP/1.1" 401 - 0.0018
+77.41.30.194 - - [06/Oct/2017:14:39:40 +0000] "GET /mal HTTP/1.1" 401 - 0.0012
+107.182.230.249 - - [06/Oct/2017:14:54:26 +0000] "GET /ip HTTP/1.1" 401 - 0.0015
+2601:743:280:27d7:79a6:fe43:74b4:6f36 - - [06/Oct/2017:15:07:05 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+96.94.247.225 - soc [06/Oct/2017:16:25:09 +0000] "POST /malcheck HTTP/1.1" 200 1158 5.0163
+96.94.247.225 - soc [06/Oct/2017:16:33:31 +0000] "POST /mal HTTP/1.1" 200 236 0.0074
+96.94.247.225 - soc [06/Oct/2017:16:34:04 +0000] "POST /malcheck HTTP/1.1" 200 1158 5.0145
+96.94.247.225 - soc [06/Oct/2017:16:34:22 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+96.94.247.225 - soc [06/Oct/2017:16:34:42 +0000] "POST /malcheck HTTP/1.1" 200 550 1.2356
+96.94.247.225 - soc [06/Oct/2017:16:34:45 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+96.94.247.225 - soc [06/Oct/2017:16:35:08 +0000] "POST /malcheck HTTP/1.1" 200 298 0.2264
+96.94.247.225 - soc [06/Oct/2017:16:36:17 +0000] "POST /mal HTTP/1.1" 200 236 0.0029
+96.94.247.225 - soc [06/Oct/2017:16:36:22 +0000] "POST /malcheck HTTP/1.1" 200 297 0.1557
+96.94.247.225 - soc [06/Oct/2017:16:39:09 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+96.94.247.225 - soc [06/Oct/2017:16:39:12 +0000] "POST /malcheck HTTP/1.1" 200 294 0.2565
+96.94.247.225 - soc [06/Oct/2017:16:39:28 +0000] "POST /mal HTTP/1.1" 200 236 0.0029
+96.94.247.225 - soc [06/Oct/2017:16:41:44 +0000] "POST /malcheck HTTP/1.1" 200 294 0.2111
+96.94.247.225 - soc [06/Oct/2017:16:45:58 +0000] "POST /mal HTTP/1.1" 200 236 0.0060
+96.94.247.225 - soc [06/Oct/2017:16:48:09 +0000] "POST /malcheck HTTP/1.1" 200 550 0.3134
+96.94.247.225 - soc [06/Oct/2017:16:49:30 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+96.94.247.225 - soc [06/Oct/2017:16:49:32 +0000] "POST /malcheck HTTP/1.1" 200 298 0.2349
+108.61.226.30 - - [06/Oct/2017:20:22:20 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+108.61.226.30 - soc [06/Oct/2017:20:22:33 +0000] "GET /mal HTTP/1.1" 200 236 0.0062
+108.61.226.30 - soc [06/Oct/2017:20:22:34 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+108.61.226.30 - soc [06/Oct/2017:20:22:48 +0000] "POST /malcheck HTTP/1.1" 200 587 5.0084
+108.61.226.30 - soc [06/Oct/2017:20:23:49 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+108.61.226.30 - soc [06/Oct/2017:20:23:54 +0000] "POST /malcheck HTTP/1.1" 200 386 3.1341
+108.61.226.30 - soc [06/Oct/2017:20:24:22 +0000] "POST /mal HTTP/1.1" 200 236 0.0029
+108.61.226.30 - soc [06/Oct/2017:20:24:24 +0000] "POST /malcheck HTTP/1.1" 200 264 0.0032
+108.61.226.30 - soc [06/Oct/2017:20:24:30 +0000] "POST /mal HTTP/1.1" 200 236 0.0029
+108.61.226.30 - soc [06/Oct/2017:20:24:32 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1984
+108.61.226.30 - soc [06/Oct/2017:20:24:38 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+108.61.226.30 - soc [06/Oct/2017:20:24:40 +0000] "POST /malcheck HTTP/1.1" 200 297 0.1519
+108.61.226.30 - soc [06/Oct/2017:20:24:53 +0000] "POST /mal HTTP/1.1" 200 236 0.0029
+108.61.226.30 - soc [06/Oct/2017:20:24:56 +0000] "POST /malcheck HTTP/1.1" 200 294 0.2467
+108.61.226.30 - soc [06/Oct/2017:20:25:42 +0000] "POST /mal HTTP/1.1" 200 236 0.0027
+108.61.226.30 - soc [06/Oct/2017:20:25:44 +0000] "POST /malcheck HTTP/1.1" 200 489 0.1943
+173.239.240.10 - - [06/Oct/2017:23:21:34 +0000] "GET /mal HTTP/1.1" 401 - 0.0015
+173.239.240.10 - soc [06/Oct/2017:23:21:43 +0000] "GET /mal HTTP/1.1" 200 236 0.0046
+173.239.240.10 - soc [06/Oct/2017:23:21:43 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0012
+173.239.240.10 - soc [06/Oct/2017:23:23:09 +0000] "POST /malcheck HTTP/1.1" 200 511 0.6628
+173.239.236.98 - soc [07/Oct/2017:00:33:43 +0000] "POST /mal HTTP/1.1" 200 236 0.0061
+173.239.236.98 - soc [07/Oct/2017:00:33:52 +0000] "POST /malcheck HTTP/1.1" 200 300 0.1971
+107.182.230.249 - - [07/Oct/2017:01:09:00 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+107.182.230.249 - soc [07/Oct/2017:01:09:33 +0000] "GET /mal HTTP/1.1" 200 236 0.0032
+107.182.230.249 - soc [07/Oct/2017:01:09:33 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0021
+107.182.230.249 - soc [07/Oct/2017:01:09:41 +0000] "POST /malcheck HTTP/1.1" 200 291 0.1088
+107.182.231.6 - - [07/Oct/2017:03:04:48 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+log writing failed. Input/output error @ io_write - <STDOUT>
+2601:743:280:27d7:9824:bf4d:ae42:5db9 - - [07/Oct/2017:10:08:58 +0000] "GET /mal HTTP/1.1" 401 - 0.0013
+98.230.241.87 - - [07/Oct/2017:11:28:50 +0000] "GET /mal HTTP/1.1" 401 - 0.0029
+98.230.241.87 - soc [07/Oct/2017:11:28:57 +0000] "GET /mal HTTP/1.1" 200 236 0.0063
+98.230.241.87 - soc [07/Oct/2017:11:28:57 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0014
+98.230.241.87 - soc [07/Oct/2017:11:28:57 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0013
+98.230.241.87 - soc [07/Oct/2017:11:29:03 +0000] "POST /malcheck HTTP/1.1" 200 388 0.0051
+98.230.241.87 - soc [07/Oct/2017:11:29:07 +0000] "POST /mal HTTP/1.1" 200 236 0.0033
+128.69.148.246 - - [07/Oct/2017:18:48:19 +0000] "GET /mal HTTP/1.1" 401 - 0.0017
+107.182.230.250 - - [07/Oct/2017:19:37:09 +0000] "GET /mal HTTP/1.1" 401 - 0.0016
+107.182.230.250 - soc [07/Oct/2017:19:37:18 +0000] "GET /mal HTTP/1.1" 200 236 0.0054
+107.182.230.250 - soc [07/Oct/2017:19:37:18 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+107.182.230.250 - soc [07/Oct/2017:19:37:29 +0000] "POST /malcheck HTTP/1.1" 200 1051 5.0140
+107.182.231.6 - soc [07/Oct/2017:19:39:55 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
+107.182.231.6 - soc [07/Oct/2017:19:40:06 +0000] "POST /malcheck HTTP/1.1" 200 560 5.0068
+173.239.236.79 - - [08/Oct/2017:00:12:58 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+173.239.236.79 - soc [08/Oct/2017:00:13:05 +0000] "GET /mal HTTP/1.1" 200 236 0.0053
+173.239.236.79 - soc [08/Oct/2017:00:13:05 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0017
+173.239.236.79 - soc [08/Oct/2017:00:13:42 +0000] "POST /malcheck HTTP/1.1" 200 644 5.0076
+208.167.254.243 - - [08/Oct/2017:02:20:28 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+208.167.254.241 - - [08/Oct/2017:11:12:55 +0000] "GET /mal HTTP/1.1" 401 - 0.0018
+107.182.230.244 - - [08/Oct/2017:14:01:02 +0000] "GET /ip HTTP/1.1" 401 - 0.0014
+107.182.230.242 - - [08/Oct/2017:17:43:24 +0000] "GET /ip HTTP/1.1" 401 - 0.0015
+173.239.236.7 - - [08/Oct/2017:20:09:23 +0000] "GET /mal HTTP/1.1" 401 - 0.0014
+173.239.236.7 - soc [08/Oct/2017:20:09:30 +0000] "GET /mal HTTP/1.1" 200 236 0.0105
+173.239.236.7 - soc [08/Oct/2017:20:09:30 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+173.239.236.7 - soc [08/Oct/2017:20:10:19 +0000] "POST /malcheck HTTP/1.1" 200 357 0.0797
+206.74.44.65 - - [09/Oct/2017:04:04:51 +0000] "GET /mal HTTP/1.1" 401 - 0.0017
+209.126.136.5 - - [09/Oct/2017:04:33:48 +0000] "GET / HTTP/1.1" 401 - 0.0016
+108.61.57.219 - - [09/Oct/2017:10:20:51 +0000] "GET /mal HTTP/1.1" 401 - 0.0017
+107.182.231.6 - - [09/Oct/2017:14:05:49 +0000] "GET /ip HTTP/1.1" 401 - 0.0011
+96.94.247.225 - - [09/Oct/2017:15:53:09 +0000] "GET /mal HTTP/1.1" 401 - 0.0038
+96.94.247.225 - soc [09/Oct/2017:15:53:13 +0000] "GET /mal HTTP/1.1" 200 236 0.0083
+96.94.247.225 - soc [09/Oct/2017:15:53:13 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0015
+96.94.247.225 - soc [09/Oct/2017:15:53:29 +0000] "POST /malcheck HTTP/1.1" 200 387 5.0123
+176.14.188.179 - - [09/Oct/2017:16:22:13 +0000] "GET /malcheck HTTP/1.1" 401 - 0.0011
+208.167.254.243 - - [09/Oct/2017:16:59:09 +0000] "GET /mal HTTP/1.1" 401 - 0.0011
+208.167.254.243 - soc [09/Oct/2017:16:59:10 +0000] "GET /mal HTTP/1.1" 200 236 0.0121
+208.167.254.243 - soc [09/Oct/2017:16:59:10 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0014
+208.167.254.243 - soc [09/Oct/2017:16:59:18 +0000] "POST /malcheck HTTP/1.1" 200 885 5.0117
+96.94.247.225 - soc [09/Oct/2017:17:00:04 +0000] "GET /mal HTTP/1.1" 200 236 0.0037
+96.94.247.225 - soc [09/Oct/2017:17:00:16 +0000] "POST /malcheck HTTP/1.1" 200 885 5.0093
+96.94.247.225 - soc [09/Oct/2017:17:01:10 +0000] "POST /mal HTTP/1.1" 200 236 0.0034
+96.94.247.225 - soc [09/Oct/2017:17:01:18 +0000] "POST /malcheck HTTP/1.1" 200 503 5.0057
+208.167.254.244 - soc [09/Oct/2017:17:01:37 +0000] "POST /mal HTTP/1.1" 200 236 0.0035
+208.167.254.244 - soc [09/Oct/2017:17:01:44 +0000] "POST /malcheck HTTP/1.1" 200 503 5.0044
+108.61.226.25 - - [09/Oct/2017:18:06:15 +0000] "GET /mal HTTP/1.1" 401 - 0.0024
+159.203.105.61 - - [09/Oct/2017:19:05:36 +0000] "GET /mal HTTP/1.1" 401 - 0.0034
+208.167.254.247 - - [09/Oct/2017:21:03:34 +0000] "GET /mal HTTP/1.1" 401 - 0.0017
+107.182.230.254 - - [09/Oct/2017:22:21:56 +0000] "GET /ip HTTP/1.1" 401 - 0.0015
+206.74.44.65 - - [10/Oct/2017:03:52:01 +0000] "GET /mal HTTP/1.1" 401 - 0.0015
+2601:743:280:27d7:20ee:17e7:25b9:978e - - [10/Oct/2017:10:14:13 +0000] "GET /mal HTTP/1.1" 401 - 0.0033
+107.191.34.171 - soc [10/Oct/2017:10:33:24 +0000] "GET /mal HTTP/1.1" 200 236 0.0109
+107.191.34.171 - soc [10/Oct/2017:10:33:52 +0000] "POST /malcheck HTTP/1.1" 200 328 0.1284
+97.67.185.210 - - [10/Oct/2017:10:41:51 +0000] "GET /mal HTTP/1.1" 401 - 0.0019
+97.67.185.210 - soc [10/Oct/2017:10:41:54 +0000] "GET /mal HTTP/1.1" 200 236 0.0072
+97.67.185.210 - soc [10/Oct/2017:10:41:54 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0016
+97.67.185.210 - - [10/Oct/2017:13:15:45 +0000] "GET / HTTP/1.1" 401 - 0.0015
+97.67.185.210 - soc [10/Oct/2017:13:15:49 +0000] "GET / HTTP/1.1" 200 374 0.0089
+97.67.185.210 - soc [10/Oct/2017:13:15:50 +0000] "GET /favicon.ico HTTP/1.1" 404 477 0.0018
+97.67.185.210 - soc [10/Oct/2017:13:15:53 +0000] "POST /mal HTTP/1.1" 200 236 0.0027
+97.67.185.210 - soc [10/Oct/2017:13:16:18 +0000] "POST /malcheck HTTP/1.1" 200 1243 5.0167
+97.67.185.210 - soc [10/Oct/2017:13:16:35 +0000] "POST /mal HTTP/1.1" 200 236 0.0056
+97.67.185.210 - soc [10/Oct/2017:13:16:44 +0000] "POST /malcheck HTTP/1.1" 200 570 5.0088
+97.67.185.210 - soc [10/Oct/2017:13:16:52 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+97.67.185.210 - soc [10/Oct/2017:13:16:59 +0000] "POST /malcheck HTTP/1.1" 200 294 0.4675
+97.67.185.210 - soc [10/Oct/2017:13:17:10 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+97.67.185.210 - soc [10/Oct/2017:13:17:12 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1568
+97.67.185.210 - soc [10/Oct/2017:13:17:26 +0000] "POST /mal HTTP/1.1" 200 236 0.0032
+97.67.185.210 - soc [10/Oct/2017:13:17:28 +0000] "POST /malcheck HTTP/1.1" 200 294 0.2069
+97.67.185.210 - soc [10/Oct/2017:13:17:37 +0000] "POST /mal HTTP/1.1" 200 236 0.0031
+97.67.185.210 - soc [10/Oct/2017:13:17:56 +0000] "POST /malcheck HTTP/1.1" 200 750 5.0062
+97.67.185.210 - soc [10/Oct/2017:13:18:11 +0000] "POST /mal HTTP/1.1" 200 236 0.0034
+97.67.185.210 - soc [10/Oct/2017:13:18:13 +0000] "POST /malcheck HTTP/1.1" 200 436 0.9008
+97.67.185.210 - soc [10/Oct/2017:13:18:28 +0000] "POST /mal HTTP/1.1" 200 236 0.0024
+97.67.185.210 - soc [10/Oct/2017:13:18:29 +0000] "POST /malcheck HTTP/1.1" 200 293 0.1542
+97.67.185.210 - soc [10/Oct/2017:13:19:26 +0000] "POST /mal HTTP/1.1" 200 236 0.0030
