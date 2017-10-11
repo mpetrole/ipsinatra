@@ -1,10 +1,10 @@
 <h1>Results</h1>
 <p><textarea name="results" rows="20" cols="60">
-  <% res.each do |r| %>
-  <%= r %>
+  <% result.each do |r| %>
+  <%= r[0] + " " + r[1] %>
   <% end %>
 </textarea></p>
 <br>
-<form method="POST" action="/ip">
+<form method="POST" action="/mal">
 	<input type="submit" name="back" value="Return">
 </form>
